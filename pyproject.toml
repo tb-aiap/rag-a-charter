@@ -1,0 +1,23 @@
+[project]
+name = "rag-a-charter"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Tow Boon Ng", email = "towboon@gmail.com"},
+]
+dependencies = [
+    "unstructured[docx]>=0.15.1",
+    "langchain>=0.2.12",
+    "langchainhub>=0.1.20",
+    "langchain-community>=0.2.11",
+    "langchain-chroma>=0.1.2",
+    "ollama>=0.3.1",
+    "ipykernel>=6.29.5",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
